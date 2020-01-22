@@ -1,0 +1,60 @@
+
+ul 
+{
+     
+   list-style: none; 
+	
+}
+
+ul 
+
+{
+    margin-left:500px; 
+}
+
+ul li{
+
+	width: 120px;
+	height: 35px;
+	border:none;
+    line-height: 35px;
+	text-align: center;
+	float:left;
+   position: relative;
+	border-radius: 8px;
+}
+
+ul li ul li a
+{
+	text-decoration: none;
+	color: white;
+    display: block;
+
+}
+ul li :hover
+{
+	background-color: steelblue;
+        border: 1px solid;
+	border-radius: 8px;
+}
+
+ul ul
+{
+	position: relative;
+	display: none;
+
+}
+
+ul li:hover >ul
+{
+	display:block;
+}
+
+ul ul
+{
+	margin-left: 0px;
+	top: 0px;
+
+
+}
+
